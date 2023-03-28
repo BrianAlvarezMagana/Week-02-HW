@@ -7,73 +7,150 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/variables.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"rel="stylesheet"/>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css"  rel="stylesheet"/>
     <title>Portfolio</title>
 </head>
 
+<div class=" w-100 p-0 container-fluid">
 <body>
- <header>
-    <h1>Brian E. Alvarez-Magana</h1>
-    <nav>
-    <ul>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Work</a></li>
-        <li><a href="#">Contact Me</a></li>
-    </ul>
+   <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #565656">
+      <div class="container-fluid">
+        <a class="navbar-brand text-primary" href="#">Brian E. Alvarez-Magana</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-primary" aria-current="page" href="#">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="#">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="#">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
- </header>
-
-<div id="header-photo"></div>
 
 
- <Main>
 
-
+<!-- About Me Section -->
+<div class=" text-primary container-fluid">
  <article id="About Me" class="About Me">
    <h2 ::before>About Me</h2>
-    <p> My name is Brian E. Alvarez-Magana, I am a Mexican-American man born in Colima in 2001, coming from a large immigrant family it is a blessing to be able to venture into this field, and gain a greater understanding about web development and coding.
+    <p class="text-primary"> My name is Brian E. Alvarez-Magana, I am a Mexican-American man born in Colima in 2001, coming from a large immigrant family it is a blessing to be able to venture into the tech field, and gain a greater understanding about web development and coding.
     </p>
  </article>
+</div>
+<!-- /About Me Section -->
 
+<!-- Work Section -->
+<div class="text-primary container-fluid">
  <article id="Work" class="Work">
     <h2>Work</h2> 
     <p> Here are some examples of my work as a Web Developer!
        </p>
-       <div class="grid-container">
-         <div class="item1">
-            <a href="https://brianalvarezmagana.github.io/horiseon-refactor/">
-            <img src="https://cdn.theatlantic.com/media/mt/science/cat_caviar.jpg" alt="Emerald North West Cleaning logo">
-            <div class="overlay">
-               <div class="text">Horiseon</div>
-            </div>
-         </div></a>
-         <div class="item2">
-            <img src="C:\Users\Brian\desktop\logo.png" alt="Emerald North West Cleaning logo">
-            <div class="overlay">
-               <div class="text">E.N.W.C.</div>
-            </div>
-         </div>
-         <div class="item3">
-            <img src="https://cdn.theatlantic.com/media/mt/science/cat_caviar.jpg" alt="Cat with gold chain holding money">
-            <div class="overlay">
-               <div class="text">Blank</div>
-            </div>
-         </div>
-       </div>
- </article>
+<div class="container-fluid text-primary">
+  <div class="container">
+    <div class="row p-3">
+      <!-- CARD 1 -->
+      <div class="col-md-4">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light"> 
+          <img src="https://cdn.theatlantic.com/media/mt/science/cat_caviar.jpg" class="w-100" />
+          <a href="https://brianalvarezmagana.github.io/horiseon-refactor/">
+            <div class="mask d-flex align-items-center justify-content-center card-title" style="background-color: hsla(0, 0%, 0%, 0.6)">Horiseon</div>
+          </a>
+        </div>
+      </div>
+      <!-- /CARD 1 -->
 
- <article id="Contact Me" class="Contact-Me">
-    <h2>Contact Me</h2>  
-    <ul>
-    <li><a href="alvarezbri22@gmail.com">alvarezbri22@gmail.com</a></li>
-    <li>253-202-2807</li>
-    <li><a href="https://github.com/BrianAlvarezMagana">GitHub</a></li>
-    <li>Slack : U04M34ESX8D</li>
-   </ul>
+     <!-- CARD 2 -->
+     <div class="col-md-4">
+      <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">  
+        <img src="https://cdn.theatlantic.com/media/mt/science/cat_caviar.jpg" class="w-100" />
+        <a href="https://brianalvarezmagana.github.io/horiseon-refactor/">
+          <div class="mask d-flex align-items-center justify-content-center card-title" style="background-color: hsla(0, 0%, 0%, 0.6)">PlaceHolder</div>
+        </a>
+      </div>
+    </div>
+     <!-- /CARD 2 -->
 
-</Main>
+     <!-- CARD 3 -->
+     <div class="col-md-4">
+      <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">  
+        <img src="https://cdn.theatlantic.com/media/mt/science/cat_caviar.jpg" class="w-100" />
+        <a href="https://brianalvarezmagana.github.io/horiseon-refactor/">
+          <div class="mask d-flex align-items-center justify-content-center card-title" style="background-color: hsla(0, 0%, 0%, 0.6)">PlaceHolder</div>
+        </a>
+      </div>
+    </div>
+    <!-- /CARD 3 -->
 
- <footer>
-    Thank you for taking a look at my Portfolio!
- </footer>
+    </div>
+  </div>
+</div>
+</div>
+<!-- /Work Section -->
+
+<!-- Footer Section -->
+<footer class="m-0 text-center text-primary" style="background-color: #565656">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+
+      <!-- Google -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #dd4b39;"
+        href="alvarezbri22@gmail.com"
+        role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #0082ca;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <!-- Github -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #333333;"
+        href="https://github.com/BrianAlvarezMagana"
+        role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+   <p> Thank you for checking out my Portfolio!</p>
+  </div>
+</footer>
+<!-- Footer Section -->
+
+</div>
 </body>
 </html>
