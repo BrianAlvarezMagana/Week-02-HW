@@ -13,6 +13,7 @@ and a section on where and how to reach / contact me.
 
 ## URL
 
+https://github.com/BrianAlvarezMagana/Week-02-HW
 
 ## Screenshots
 
