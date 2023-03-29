@@ -3,10 +3,20 @@
 --grey: #565656;
 --lightbg: #a6a6a6;
 --white: #fff;
-}
+};
 
 .card-img-top {
     width: 100%;
     height: 100%;
     object-fit: cover;
+};
+
+.resize {
+    width: 400px;
+    height: auto;
+}
+
+.resize {
+    width: 300px;
+    height: auto;
 }
